@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/style/common.scss';
+
 *{
  font-family:"微软雅黑";
 }
@@ -20,5 +20,6 @@ export default {
   position: fixed;
   height: 100%;
   width: 100%;
+  background-color: #eeeeee;
 }
 </style>

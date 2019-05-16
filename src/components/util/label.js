@@ -23,9 +23,29 @@ export default {
         register:{
             zh:'注册',
             en:'register'
+        },
+        forget:{
+            zh:'忘记密码',
+            en:'forget pwd'
         }
     },
-    home:{
+    home:{       
+        bottomMenu:[
+            {
+                zh:'消息',
+                en:'message'
+            },
+            {
+                zh:'工作',
+                en:'Work'
+            },
+           {
+                zh:'个人',
+                en:'User'
+            }  
+        ]
+    },
+    work:{
         funList:[
             {
                 zh:'考勤',
@@ -44,20 +64,26 @@ export default {
                 en:'Statistic'
             }
         ],
-        bottomMenu:[
+
+        manageList:[
             {
-                zh:'消息',
-                en:'message'
+                zh:'rule',
+                en:'规则'
             },
             {
-                zh:'工作',
-                en:'Work'
+                zh:'请假',
+                en:'Leave'
             },
-           {
-                zh:'个人',
-                en:'User'
-            }  
-        ]
+            {
+                zh:'审批',
+                en:'Audit'
+            },
+            {
+                zh:'统计',
+                en:'Statistic'
+            }
+        ],
     }
+
 
 }
